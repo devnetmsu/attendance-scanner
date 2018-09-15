@@ -50,7 +50,7 @@ async function main() {
       setState({ processing: true, swipes: state.swipes + 1 });
       fs.appendFileSync("scans.txt", `${netId}\n`);
 
-      await markNetIdAsAttended("recPtLhfyj8mgA3jU", netId);
+      await markNetIdAsAttended("recp9vlwuX7rkQwG1", netId);
 
       setState({ processing: false });
     } catch (e) {
